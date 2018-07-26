@@ -1,0 +1,54 @@
+<script type = "text/javascript">
+        function pic1()
+        {
+            document.getElementById("img").src = "https://www.andrewswxcenter.com/images/ASOS_locations.jpg";
+        }
+        function pic2()
+        {
+            document.getElementById("img").src ="https://www.andrewswxcenter.com/images/AWOS_locations.jpg";
+        } 
+        function pic3()
+        {
+            document.getElementById("img").src = "https://www.andrewswxcenter.com/images/RAWS_locations.jpg";
+        }
+        function pic4()
+        {
+            document.getElementById("img").src = "https://www.andrewswxcenter.com/images/ECONet_locations.jpg";
+        }
+        function pic5()
+        {
+            document.getElementById("img").src = "https://www.andrewswxcenter.com/images/COOP_locations.jpg";
+        }
+        function pic6()
+        {
+            document.getElementById("img").src = "https://www.andrewswxcenter.com/images/CoCoRaHS_locations.jpg";
+        }
+        function pic7()
+        {
+            document.getElementById("img").src = "https://www.andrewswxcenter.com/images/ALL_locations.jpg";
+        }
+        function pic8()
+        {
+            document.getElementById("img").src = "https://www.andrewswxcenter.com/images/tornado_locations.jpg";
+        }
+        function pic9()
+        {
+            document.getElementById("img").src = "";
+        }
+
+</script>
+
+
+
+
+<input type="button" value="ASOS" onclick="pic1()"/> 
+<input type="button" value="AWOS" onclick="pic2()"/>
+<input type="button" value="RAWS" onclick="pic3()"/> 
+<input type="button" value="ECONet" onclick="pic4()"/>
+<input type="button" value="COOP" onclick="pic5()"/> 
+<input type="button" value="CoCoRaHS" onclick="pic6()"/>
+<input type="button" value="All Stations" onclick="pic7()"/> 
+<input type="button" value="Tornado Touchdowns" onclick="pic8()"/>
+<input type="button" value="CLEAR" onclick="pic9()"/>
+
+<img src = "" id = "img"/>
